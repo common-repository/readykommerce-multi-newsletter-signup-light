@@ -1,0 +1,199 @@
+.content_unlocker_text {
+font-weight: bold;
+margin-bottom: 20px;
+display: inline-block;
+background: #eee;
+}
+
+.nl_signup_wrapper {
+max-width: 500px;
+margin-bottom: 20px;
+}
+
+.nl_signup_wrapper.nl_signup_popup_box {
+width: 38%;
+}
+
+.nl_subscribe_form {
+overflow: hidden;
+}
+
+.nl_signup_wrapper.nl_signup_popup_box .nl_title {
+font-size: 16px;
+}
+
+.nl_signup_wrapper .nl_title {
+margin: 0px auto 15px;
+}
+
+.nl_signup_wrapper.nl_signup_popup_box .nl_desc {
+line-height: 20px;
+margin-bottom: 15px;
+}
+
+.nl_signup_wrapper.nl_signup_popup_box .nl_msg_box {
+margin-bottom: 10px;
+}
+
+.nl_signup_wrapper, .widget_nl_signup_widget {
+border: 2px solid #e0e0e0;
+border-radius: 4px;
+padding: 20px;
+overflow: hidden;
+}
+
+.widget_nl_signup_widget {
+border: none;
+padding: 0px;
+}
+
+.nl_subscribe_form .input_row {
+overflow: hidden;
+display: block;
+margin-bottom: 10px;
+}
+
+.nl_input_item {
+display: inline-block;
+float: right;
+width: 60%;
+border:1px solid #DADADA;
+padding: 10px;
+border-radius: 2px;
+}
+
+.nl_submit.nl_input_item {
+width: 150px;
+}
+
+.nl_msg_box p {
+padding: 5px 10px;
+border: 1px solid;
+}
+
+.nl_msg_box .error_msg {
+border-color: #F8C9C9;
+color: #cc0000;
+background: #FFF0F0;
+}
+
+.nl_msg_box .success_msg {
+border-color: #86D186;
+color: #51CA51;
+background: #F9FFF9;
+}
+
+
+/* support for widget */
+/*====================*/
+.widget_nl_signup_widget .nl_input_item {
+width: 100%;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.widget_nl_signup_widget p.error_msg {
+    margin: 0 0 15px 0;
+}
+
+
+
+/*popup style*/
+/*============*/
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.modal_close {
+background: #ddd;
+width: 14px;
+height: 14px;
+display: inline-block;
+font-size: 12px;
+text-decoration: none;
+text-align: center;
+line-height: 12px;
+color: #000;
+float: right;
+margin-bottom: 10px;
+position: absolute;
+top: 10px;
+right: 10px;
+border-radius: 2px;
+}
+
+.nl_signup_popup_box {
+background: #fff;
+}
+
+.nlph .nl_input_item {
+    float: right;
+}
+
+@media screen and (min-width: 1400px) {
+    .nl_signup_wrapper.nl_signup_shortcode .input_row {
+        /*width: 46.5%;*/
+    }
+}
+
+@media screen and (max-width: 820px) and (min-width: 750px) {
+    .nl_signup_wrapper.nl_signup_popup_box .input_row, .nl_signup_wrapper.nl_signup_popup_box .input_row.email_add label, .nl_signup_wrapper.nl_signup_popup_box .input_row.email_add input, .nl_signup_wrapper.nl_signup_popup_box .input_row label, .nl_signup_wrapper.nl_signup_popup_box .input_row input {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .nl_signup_wrapper.nl_signup_popup_box {
+        width: 60%;
+    }
+
+    .nl_signup_shortcode.nl_signup_wrapper .nl_subscribe_form .input_row, .nl_signup_shortcode.nl_signup_wrapper .nl_subscribe_form .input_row label, .nl_signup_shortcode.nl_signup_wrapper .nl_subscribe_form .input_row input {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nl_signup_wrapper.nl_signup_popup_box {
+        width: 80%;
+    }
+
+    .nl_signup_shortcode .nl_subscribe_form .input_row label, .nl_signup_shortcode .nl_subscribe_form .input_row .nl_input_item {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .nl_signup_wrapper.nl_signup_popup_box .input_row {
+        width: 100%;
+    }
+    .nl_signup_wrapper.nl_signup_shortcode .input_row, .nl_signup_wrapper.nl_signup_shortcode .input_row .nl_input_item {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    .nl_signup_wrapper .nl_submit.nl_input_item {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}

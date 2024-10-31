@@ -1,0 +1,125 @@
+#icon-readykommerce {
+background: url(images/readykommerce-icon32.png) no-repeat;
+}
+
+.form-table {
+max-width: 600px;
+border: 2px solid #444;
+border-radius: 0 0 4px 4px;
+border-collapse: separate !important;
+margin-bottom: 25px;
+margin-top: 0;
+}
+
+.nl_signup.readykommerce h3 {
+max-width: 600px;
+background: #444;
+color: #fff;
+margin: 0;
+margin-top: 20px;
+padding: 10px 20px 8px;
+border-radius: 4px 4px 0 0;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.nl_signup.readykommerce h3 .nl-help-wrap {
+float: right;
+}
+
+.nl_signup.readykommerce h3 .nl-help-text {
+border: none;
+color: #ccc;
+font-size: 12px;
+text-decoration: underline;
+}
+
+.nl_signup.readykommerce h3 .nl-help-text:hover {
+color: #eee;
+}
+
+.form-table input[type="text"], .form-table select, .form-table textarea {
+width: 100%;
+border: 1px solid #ccc;
+}
+
+.form-table textarea {
+height: 100px;
+}
+
+.form-table input[type="text"], .form-table select {
+height: 30px;
+padding-left: 10px;
+}
+
+.form-table .nl-admin-info.input-info {
+font-size: 12px;
+line-height: 18px;
+color: #999;
+margin-top: 5px;
+}
+
+.nl-help-wrap {
+display: inline;
+position: relative;
+}
+
+.nl-help-text {
+border: 1px solid;
+padding: 0px 3px;
+border-radius: 4px;
+margin-right: 5px;
+font-size: 10px;
+cursor: pointer;
+text-decoration: none;
+}
+
+.nl-help-data {
+display: none;
+position: absolute;
+width: 180px;
+z-index: 10000;
+background: #eee;
+padding: 5px;
+border-radius: 0px 10px 10px 10px;
+border: 1px solid #ddd;
+top: -1px;
+}
+
+.offer {
+width: 600px;
+background: #5BC1AF;
+padding: 10px;
+border-radius: 3px;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+border: 1px solid #57B4A4;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.offer a {
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.offer a:hover {
+text-decoration: underline;
+}
+
+.readykommerce .submit {
+width: 600px;
+text-align: right;
+padding: 0;
+}
+
+.readykommerce .button.button-primary {
+background: #5BC1AF;
+padding: 5px 10px;
+height: auto;
+border: 1px solid #4BA292;
+font-weight: bold;
+}
